@@ -22,7 +22,7 @@ list-style: none;}
 
 .logo{
 color: var(--primary-text-color);
-
+text-decoration: none;
 font-family: raleway, sans-serif, cursive;
 font-weight: 700;
 font-size: 26px;
@@ -37,6 +37,7 @@ color: #2196F3;}
 .site-nav .link {
 color: var(--primary-text-color);
 
+text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -51,6 +52,7 @@ color: var(--accent-color);}
 .contacts-nav .link{
 color: var(--secondary-text-color);
 
+text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -64,6 +66,7 @@ color: var(--accent-color);}
 .button{
 background-color: var(--accent-color);
 color: var(--white-text-color);
+
 cursor: pointer;
 font-family: 'roboto';
 font-weight: 700;
@@ -103,11 +106,15 @@ text-transform: uppercase;}
 
 .examples{
 color: var(--primary-text-color);
+
 font-weight: 700;
 font-size: 18px;
 line-height: 2x;
 letter-spacing: 0.06em;}
 
+.decoration{
+    text-decoration: none;}
+    
 /* section */
 
 .section-title{
@@ -121,6 +128,7 @@ text-transform: uppercase;}
 
 .product-item{
 color: var(--secondary-text-color);
+
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;}

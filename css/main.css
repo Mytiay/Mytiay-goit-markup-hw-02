@@ -11,17 +11,20 @@
 --white-text-color: #ffffff;}
 
 body {
-background-color: #E5E5E5;
+background-color: var(--white-text-color);
 color: var(--secondary-text-color);
-font-family: roboto, sans-serif;}
+font-family: Roboto, sans-serif;}
 
 .link{
+list-style: none;}
+
+.list{
 list-style: none;}
 
     /* logo */
 
 .logo{
-color: var(--primary-text-color);
+color: var(--accent-color);
 text-decoration: none;
 font-family: raleway, sans-serif, cursive;
 font-weight: 700;
@@ -29,8 +32,8 @@ font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;}
 
-.logo-web{
-color: #2196F3;}
+.logo-top{
+color: var(--primary-text-color);}
 
 /* site-nav */
 
@@ -66,33 +69,42 @@ color: var(--accent-color);}
 .button{
 background-color: var(--accent-color);
 color: var(--white-text-color);
+border: 0;
+border-radius: 4px;
 
 cursor: pointer;
-font-family: 'roboto';
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.06em;}
 
-.secondary:hover, .secondary:focus{
+.button:hover, .button:focus{
+background-color: #188CE8;}
+
+.portfolio-btn:hover, .portfolio-btn:focus{
 color: var(--white-text-color);
 background-color: var(--accent-color);
 }
 
-.secondary{
+.portfolio-btn{
 background-color: #f5f4fa;
 color: #212121;
+border: 0;
+border-radius: 4px;
 cursor: pointer;
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
-letter-spacing: 0.03em}
+letter-spacing: 0.03em;}
 
-/* hero */
+.current-btn{
+background-color: var(--accent-color);
+color: var(--white-text-color);}
 
 .hero{
-background-color: #2F303A;;}
+background-color: #2F303A;}
 
 .hero-title {
 color: var(--white-text-color);
@@ -109,7 +121,7 @@ color: var(--primary-text-color);
 
 font-weight: 700;
 font-size: 18px;
-line-height: 2x;
+line-height: 2;
 letter-spacing: 0.06em;}
 
 .decoration{
@@ -133,7 +145,7 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;}
 
-.text{
+.section-text{
 
 font-size: 14px;
 line-height: 1.71;
@@ -153,6 +165,9 @@ letter-spacing: 0.03em;}
 /* team-list */
 .team{
 background-color: #F5F4FA;;}
+
+.team-bgk{
+background-color: var(--white-text-color);}
 
 .team-list .title {
 color: var(--primary-text-color);}
@@ -184,17 +199,19 @@ background-color: #2F303A;;}
 
 .contacts .address{
 color: #ffffff;
-
+font-style: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;}
 
 .footer .link{
 color: rgba(255, 255, 255, 0.6);
-
+font-style: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;}
 
-.logo-studio {
+.logo-botom {
 color:  var(--white-text-color);}
